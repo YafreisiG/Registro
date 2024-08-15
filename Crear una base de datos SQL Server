@@ -1,0 +1,16 @@
+--Create database-- 
+create database BdPersonas
+
+---Create tabla----
+create table persona(
+id int primary key identity(1,1),
+Nombre varchar(50), 
+Edad int,
+Celular varchar(10)
+)
+
+--ver la tabla--
+SELECT * FROM persona;
+
+
+INSERT INTO persona values ('Karla', 24,'8092346789')
