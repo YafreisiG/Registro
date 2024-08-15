@@ -12,5 +12,5 @@ Celular varchar(10)
 --ver la tabla--
 SELECT * FROM persona;
 
-
+---Insertar informacion en la tabla--- 
 INSERT INTO persona values ('Karla', 24,'8092346789')
